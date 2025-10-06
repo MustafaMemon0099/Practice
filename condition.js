@@ -44,3 +44,15 @@ let name = prompt("Enter your name");
 let length = name.length;
 let finalname = "@" + name + length;
 console.log(finalname);
+
+// if else
+
+function getVal (val) {
+    if (val < 25) return "Failed"
+    else if (val < 50) return "C"
+    else if (val < 70) return "B"
+    else if (val < 90) return "A"
+    else if (val < 100) return "A+"
+    else return "enter a fixed percentage"
+}
+console.log(getVal(360))
