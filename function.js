@@ -28,3 +28,35 @@ function myIntro() {
   console.log("My name is Mustafa");
 }
 myIntro();
+//functions again 
+
+let abc = function () {
+    console.log("hf");
+}
+abc();
+
+let func = () => {
+    console.log("kjds")
+}
+func();
+
+let fun = ()=>{
+    return function(){
+        console.log("hihihi")
+    }
+}
+
+fun()()
+
+function abc (val){
+    val();
+}
+abc(function (){
+    console.log("hihuihiui");
+})
+
+ifee
+
+(function(){
+
+})()
