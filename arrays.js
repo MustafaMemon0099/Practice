@@ -31,3 +31,43 @@ console.log("\nFruits:", fruits);
 let marks4 = [0, 9, 8, 3, 4, 6, 0, 7];
 marks4.splice(1, 3, 101, 102);
 console.log("\nUpdated marks using splice:", marks4);
+
+// array again
+
+let marks = [0,37,85,92,84,73,92]
+console.log(marks.slice(1,4))
+
+let h1 = document.querySelector("h1");
+h1.innerText = "Facts of Cats"
+
+let p = document.querySelector("p"); // only first p
+
+p.addEventListener("click", function() {
+    p.style.color = "red";
+});
+
+
+let sel = document.querySelector("select");
+let h1 = document.querySelector("#h1");
+
+sel.addEventListener("change" , function(det){
+    h1.textContent = `${det.target.value} Selected`
+})
+
+let p2 = document.querySelector("#para");
+let body = document.body;
+
+body.addEventListener("keydown" , function(det){
+    p2.textContent = (det.key)
+    
+})
+
+let div = document.querySelector("#colorchange")
+addEventListener("mouseover" , function(){
+    div.style.backgroundColor = "green";
+})
+addEventListener("mouseout" , function(){
+    div.style.backgroundColor = "red";
+})
+
+settimeout
